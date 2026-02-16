@@ -40,7 +40,7 @@ Server: `http://localhost:8000`. KB auto-indexes on first run.
 curl -X POST http://localhost:8000/triage -H "Content-Type: application/json" -d @data/tickets_sample.json
 ```
 
-**Interactive chat:** `python chat_with_bot.py` — pick mock customer, chat with bot.
+**Interactive chat:** `python chat_with_bot.py` — pick mock customer, chat with bot. (CLI based chat)
 
 ### Docker testing (Linux / macOS / Windows)
 
