@@ -1,0 +1,53 @@
+{
+  "description": "Mock customer profiles to simulate different user types when testing the RAG bot. Edit before running chat_with_bot.py.",
+  "customers": [
+    {
+      "id": "free_new",
+      "label": "Free plan, new user (4 months, first ticket)",
+      "plan": "free",
+      "region": null,
+      "tenure_months": 4,
+      "prior_tickets": 0
+    },
+    {
+      "id": "free_angry",
+      "label": "Free plan, frustrated (payment issues, 0 prior tickets)",
+      "plan": "free",
+      "region": null,
+      "tenure_months": 2,
+      "prior_tickets": 0
+    },
+    {
+      "id": "pro_regular",
+      "label": "Pro plan, regular user (5 months, no prior tickets)",
+      "plan": "pro",
+      "region": null,
+      "tenure_months": 5,
+      "prior_tickets": 0
+    },
+    {
+      "id": "pro_vip",
+      "label": "Pro plan, long-term (12 months, VIP)",
+      "plan": "pro",
+      "region": null,
+      "tenure_months": 12,
+      "prior_tickets": 1
+    },
+    {
+      "id": "enterprise_asia",
+      "label": "Enterprise, Asia region (8 months)",
+      "plan": "enterprise",
+      "region": "asia",
+      "tenure_months": 8,
+      "prior_tickets": 0
+    },
+    {
+      "id": "enterprise_us",
+      "label": "Enterprise, US (24 months, multiple tickets)",
+      "plan": "enterprise",
+      "region": "us",
+      "tenure_months": 24,
+      "prior_tickets": 3
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables (keep .env.example and .env.reviewer)
+.env
+.env.local
+
+# Vector DB (generated at runtime)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Internal documentation (not required for submission)
+ARCHITECTURE.md
+PROJECT_REQUIREMENTS.md
+CHECKLIST.md
+
+# Internal test/verification scripts (not required)
+verify_openai.py
+test_api.py
+
+# Python cache
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*~
